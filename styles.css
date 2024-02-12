@@ -6,8 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 
 h1 {
-    color: #094067;
+    color: green;
     font-family: "Silkscreen";
+    background-color: black;
 }
 body {
     font-family: "Press Start 2P";
