@@ -8,36 +8,45 @@
 h1,h2,h3 {
     color: green;
     font-family: "Silkscreen";
-    background-color: black;
+    background-color: #5FBDFF;
     text-align: center;
 }
 a {
     font-family: "Quantico";
 }
 body {
+    background-color: #404258;
     font-family: "Press Start 2P";
     margin: 0px;
 }
-main {
+main{
+    max-width: 1350px;
+    margin: auto;
+    background: #C5FFF8;
+    padding: 10px;
+}
+section {
     margin: 20px;
 }
+
+
 /* Nav */
 .navbar ul {
     list-style-type: none;
-    background-color:hsl(0, 0%, 50%);
+    background-color:#50577A;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 .navbar a {
-    color: blue;
+    color: #5FBDFF;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-    background-color: hsl(0, 0%, 100%);
+    background-color: #7B66FF;
 }
 .navbar li{
     float: left;
