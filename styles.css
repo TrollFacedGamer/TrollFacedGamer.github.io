@@ -28,7 +28,10 @@ main{
 section {
     margin: 20px;
 }
-
+.navbar {
+    top: 0px;
+    position: sticky;
+}
 
 /* Nav */
 .navbar ul {
