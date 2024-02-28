@@ -5,7 +5,7 @@
 /* Quantico */
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 
-h1,h2,h3 {
+h1,h2 {
     color: green;
     font-family: "Silkscreen";
     background-color: #5FBDFF;
@@ -28,9 +28,28 @@ main{
 section {
     margin: 20px;
 }
-.navbar {
-    top: 0px;
-    position: sticky;
+
+/* Projects */
+.projectImg {
+    position: relative;
+    left: 800px;
+    background-color: #5FBDFF;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 10px #7B66FF;
+}
+.projectLink {
+    color: green;
+    background-color: #5FBDFF;
+}
+.projectLink:hover {
+    background-color: #404258;
+}
+.project:active {
+    background-color: #C5FFF8;
+}
+.projectLink:visited {
+    color: #7B66FF;
 }
 
 /* Nav */
@@ -51,6 +70,13 @@ section {
 .navbar a:hover{
     background-color: #7B66FF;
 }
+.navbar a:active {
+    color: #C5FFF8;
+}
 .navbar li{
     float: left;
+}
+.navbar {
+    top: 0px;
+    position: sticky;
 }
