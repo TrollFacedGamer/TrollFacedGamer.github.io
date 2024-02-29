@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Contact_Information</title>
 </head>
+
 <body>
     <main>
         <!-- Navigation -->
@@ -17,7 +19,8 @@
                 <li><a href="aboutMe.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="https://docs.google.com/document/d/1NTzIaUsfiLaQDLZ8LTGIdk6PXxxO4Cb5m2UwmyPnfDM/edit?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="https://docs.google.com/document/d/1NTzIaUsfiLaQDLZ8LTGIdk6PXxxO4Cb5m2UwmyPnfDM/edit?usp=sharing"
+                        target="_blank">Resume</a></li>
             </ul>
         </nav>
         <section>
@@ -45,6 +48,25 @@
                 </tr>
             </table>
         </section>
+        <article>
+            <h2>Email</h2>
+            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+                <p class="emailInfo">First Name</p>
+                <input type="text" name="First Name">
+                <p class="emailInfo">Last Name</p>
+                <input type="text" name="Last Name">
+                <p class="emailInfo">Email Address</p>
+                <input type="text" name="Email Address">
+                <p class="emailInfo">Title</p>
+                <input type="text" name="Title">
+                <p class="emailInfo">Message</p>
+                <input type="text" name="Message">
+                
+                <input type="submit">
+                <input name="send-to" value="bwang@brooklynsteamcenter.org" hidden>
+            </form>
+        </article>
     </main>
 </body>
+
 </html>
