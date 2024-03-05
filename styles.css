@@ -31,17 +31,19 @@ section {
 
 /* Projects */
 .projectImg {
-    position: relative;
+    position: static;
     left: 800px;
     background-color: #5FBDFF;
     padding: 10px;
     box-sizing: border-box;
     box-shadow: 0 0 0 10px #7B66FF;
+    margin-top: 20px;
 }
 .projectLink {
     color: green;
     background-color: #5FBDFF;
     text-decoration: none;
+    font-size: 20px;
 }
 .projectLink:hover {
     background-color: #404258;
@@ -52,7 +54,9 @@ section {
 .projectLink:visited {
     color: #7B66FF;
 }
-
+.centerMob {
+    text-align: center;
+}
 /* Nav */
 .navbar ul {
     list-style-type: none;
@@ -110,3 +114,22 @@ input[type=submit] {
 }
 
 /* Icon */
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .projectImg {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 580px) {
+    #TrollFacedGamerPhoto {
+      width: 50%;
+      height: 50%;
+    }
+  }
