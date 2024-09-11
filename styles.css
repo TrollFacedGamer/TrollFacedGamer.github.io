@@ -127,8 +127,12 @@ input[type=submit] {
     margin-right: 20px;
 }
 
-
-
+@media screen and (max-width: 860px) {
+    .mobcenter {
+      width: 25%;
+      height: 25%;
+    }
+  }
 @media screen and (max-width: 600px) {
     .projectImg {
       width: 50%;
@@ -136,8 +140,23 @@ input[type=submit] {
     }
   }
 @media screen and (max-width: 580px) {
-#TrollFacedGamerPhoto {
-    width: 50%;
-    height: 50%;
+    #TrollFacedGamerPhoto {
+        width: 50%;
+        height: 50%;
+    }
 }
+@media screen and (max-width: 450px) {
+    .projectText{
+        font-size: 75%;
+    }
+};
+@media screen and (max-width: 400px) {
+    .projectText{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .projectText{
+        font-size: 25%;
+    }
 }
